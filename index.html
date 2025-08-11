@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arya Chauhan </title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Dark/Light Mode Toggle -->
+    <div class="theme-toggle">
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Arya Portfolio<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="resume.docs" class="nav-resume-btn">Resume</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="hero-subtitle">Hi, my name is</p>
+            <h1 class="hero-title">Arya Bardhan Singh Chauhan.</h1>
+            <!-- <h2 class="hero-tagline">I build intelligent systems.</h2> -->
+            <p class="hero-description">
+                I'm a Computer Science student specializing in AI/ML, passionate about creating 
+                innovative solutions that bridge technology and human needs.
+            </p>
+            <a href="#projects" class="cta-btn">View My Work</a>
+        </div>
+        <div class="hero-image">
+            <div class="image-container">
+                <img src="placeholder-images/bg-home-office-city.jpg" alt="Developer illustration">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="section-container">
+            <h2 class="section-title"><span>01.</span> About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Hello! I'm Arya, a Computer Science undergraduate at Vellore Institute of Technology 
+                        specializing in Artificial Intelligence and Machine Learning.
+                    </p>
+                    <p>
+                        I have hands-on experience developing real-time web applications and machine learning 
+                        tools, with proficiency in Python, C++, JavaScript, and modern web technologies.
+                    </p>
+                    <p>
+                        Certified by Meta, IBM, and HackerRank, I combine technical skills with creative 
+                        problem-solving to build impactful solutions.
+                    </p>
+                    <div class="about-tech">
+                        <p>Here are some technologies I've been working with:</p>
+                        <ul class="tech-list">
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                            <li>C++</li>
+                            <!-- <li>TensorFlow</li> -->
+                            <li>React</li>
+                            <li>Node.js</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="placeholder-images/assets/arya photo .jpg" alt="Arya Chauhan">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="section-container">
+            <h2 class="section-title"><span>02.</span> Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                        <h3 class="project-title">Weather Forecast Platform</h3>
+                        <p class="project-description">
+                            Real-time weather data visualization using OpenWeatherMap API with dynamic 
+                            rendering of weather conditions.
+                        </p>
+                    </div>
+                    <div class="project-tech">
+                        <span>JavaScript</span>
+                        <span>API Integration</span>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="project-image">
+                        <img src="placeholder-images/assets/weather-website.png" alt="Weather App Screenshot">
+                    </div>
+                </div>
+                 <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                        <h3 class="project-title">E-commerce website</h3>
+                        <p class="project-description">
+                            Developed a web-based platform for side-by-side product comparisons, reducing information overload.
+                        </p>
+                    </div>
+                    <div class="project-tech">
+                        <span>JavaScript</span>
+                        <span>python</span>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="project-image">
+                        <img src="placeholder-images/e-commerce.jpg" alt="E-commerce website Screenshot">
+                    </div>
+                </div> 
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                        <h3 class="project-title">Signature Verification Tool</h3>
+                        <p class="project-description">
+                            Web application for detecting genuine or forged signatures using image processing 
+                            techniques.
+                        </p>
+                    </div>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>OpenCV</span>
+                        <span>Flask</span>
+                    </div>
+                    <div class="project-image">
+                        <img src="placeholder-images/assets/sign.png" alt="Signature App Screenshot">
+                    </div>
+                </div>
+            </div>
+            <div class="projects-more">
+                <a href="resume.docs" class="outline-btn">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="section-container">
+            <h2 class="section-title"><span>03.</span> Skills & Technologies</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Web Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML/CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">React</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>AI/ML</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">TensorFlow</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Scikit-learn</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">OpenCV</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="section-container">
+            <h2 class="section-title"><span>04.</span> Get In Touch</h2>
+            <div class="contact-content">
+                <p class="contact-text">
+                    I'm currently looking for internship opportunities and interesting projects to work on. 
+                    Whether you have a question or just want to say hi, I'll do my best to get back to you!
+                </p>
+                <a href="mailto:aryachauhan515@gmail.com" class="cta-btn">SAY HELLO</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="https://github.com/Aryabardhansinghchauhan" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/arya-bardhan-singh-chauhan-0b5b64288/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <!-- <a href="https://twitter.com/yourhandle" target="_blank"><i class="fab fa-twitter"></i></a> -->
+                <a href="mailto:aryachauhan515@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p class="footer-copyright">
+                Designed & Built by Arya Chauhan
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
